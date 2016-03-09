@@ -1,0 +1,17 @@
+{
+    "name": "video.liu-xiao-guo",
+    "description": "description of video",
+    "architecture": "@CLICK_ARCH@",
+    "title": "video",
+    "hooks": {
+        "video": {
+            "apparmor": "video/video.apparmor",
+            "desktop":  "video/video.desktop"
+        }
+    },
+    "version": "0.1",
+    "maintainer": "XiaoGuo, Liu <xiaoguo.liu@canonical.com>",
+    "framework" : "ubuntu-sdk-15.04"
+}
+
+
